@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./Images/f4_image.jpg); 
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 0% 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 11rem;
+}
+
+#countdown_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.timer_container{
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.timer_container span{
+    font-size: 1.25rem;
+}
+
+.bigtext{
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
+}
+h1{
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#h1{
+    display: flex;
+}
+
+#wordtitle1{
+    margin-right: 0.8rem;
+    color: #1f80e2;
+}
+
+#wordtitle2{
+    color: #ffffff;
+}
+
+#wordtitle3{
+    margin-left: 0.8rem;
+    color: #c64653;
+}
+
+#span1{
+    color: #ffffff;
+}
+
+#span4{
+    color: #ffffff;
+}
+
+button{
+    background: none;
+    width: 23rem;
+    height: 5rem;
+    position: relative;
+    top: 3rem;
+    border: 0.2rem solid #1e74cb;
+    font-size: 1.5rem;
+    color: #1e74cb;
+    transition: 0.4s linear;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #ffffff;
+}
+
+button::before{
+    content: "";
+    position: absolute;
+    width: 0rem;
+    height: 4.6rem;
+    top: 0rem;
+    left: 0rem;
+    background-color: #1e74cb;
+    z-index: -1;
+    transition: 0.5s linear;
+}
+
+button:hover::before{
+    width: 22.6rem;
+}

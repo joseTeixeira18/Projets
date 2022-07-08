@@ -1,0 +1,15 @@
+.container{
+    background-color: #E69A8DFF;
+    width: 80%;
+    height: 100%
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #5F4B8BFF;
+}

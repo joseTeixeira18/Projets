@@ -1,0 +1,253 @@
+/*--------------------Body--------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;    
+    font-family: sans-serif;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*--------------------Body--------------------*/
+
+
+
+/*--------------------Header----------------------*/
+header{
+    background-color: #d39e88;
+    width: 100%;
+    height: 15%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.hovernavheader{
+    padding: 5px;
+}
+.hovernavheader:hover{
+    background-color: #c3937e;
+    border-radius: 13px;
+}
+/*--------------------Header----------------------*/
+
+
+
+/*--------------------Main---------------------*/
+main{
+    height: 58%;
+    width: 100%;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 50%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#logozikhouse{
+    height: auto;
+    width: 130px;
+    filter: grayscale(0.2);
+}
+h1{
+    padding:0;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+#titrebg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 70px;
+    right: 50px;
+}
+#titrelogo{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold; 
+    margin-bottom: 10px;   
+}
+#pUnlogo{
+    color: #FFF;
+    margin: 0;
+    font-size: 23px;
+}
+#pDeuxlogo{
+    color: #edb197;
+    margin: 0;
+    font-size: 23px;
+}
+#pTroislogo{
+    color: #9a473b;
+    margin: 0;
+    font-size: 23px;
+}
+#copyrightlogo{
+    color: white;
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 19px;
+}
+#soustitrezikhouse{
+    padding: 0;
+    color: #cf9a84;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 17px;
+}
+/*--------------------Main---------------------*/
+ 
+
+
+/*--------------------Footer---------------------*/
+footer{
+    height: 27%;
+    width: 100%;
+    background-color:#49241e;
+}
+footer h3{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    color: #d39e88;
+}
+footer p{
+    font-size: 20px;
+    padding: 0;
+    margin-top: 5px;    
+    color: white;
+}
+#coordonnes1{
+    position: relative;
+    top: 15%;
+    width: 20%;
+}
+#coordonnes2{
+    position: relative;
+    bottom: 15%;
+    width: 20%;
+}
+#coordonnes3{
+    position: relative;
+    top: 15%;
+    width: 20%;
+}
+#coordonnes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.hovernavfooter:hover{
+    color: black;
+}
+/*--------------------Footer---------------------*/
+
+
+
+/*--------------------Media-------------------*/
+@media(max-width:1000px){
+    ul{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 5px;
+    }
+    #titrelogo{
+        font-size: 5px;   
+    }
+    #pUnlogo{
+        font-size: 5px;
+    }
+    #pDeuxlogo{
+        font-size: 5px;
+    }
+    #pTroislogo{
+        font-size: 5px;
+    }
+    #copyrightlogo{
+        font-size: 5px;
+    }
+    #soustitrezikhouse{
+        font-size: 5px;
+    }
+    footer h3{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    #coordonnes1{
+        position: relative;
+        top: 15%;
+        left: 15%;
+        width: 20%;
+    }
+    #coordonnes3{
+        position: relative;
+        top: 15%;
+        right: 15%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #titrebg{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;             
+    }
+    main{
+        height: 58%;
+        width: 100%;
+        background-image: url(./images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 220%;
+        background-position: 0% 50%;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    #logozikhouse{
+        height: auto;
+        width: 30px;
+        filter: grayscale(0.2);
+    }
+}
+/*--------------------Media-------------------*/
