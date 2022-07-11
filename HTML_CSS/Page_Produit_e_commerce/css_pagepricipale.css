@@ -123,13 +123,25 @@ main{
     height: 220px;
     background-color: none;
     border-radius: 50px;
-    transition: all 0.2s linear;
+    transition: 0.2s linear;
 }
 #images{
     position: relative;
     top: 100px;
 }
 .imgProduit:hover{
+    background-color: #04001d;
+}
+#imgProduit1{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    border-radius: 50px;
+    transition: 0.2s linear;
+    filter: brightness(0.8);
+    filter: contrast(1.2);
+}
+#imgProduit1:hover{
     background-color: #04001d;
 }
 #imgProduit2{
